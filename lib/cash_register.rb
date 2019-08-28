@@ -14,8 +14,7 @@ class CashRegister
     @items = quantity.times do items.push(title)
   end
   
-  5.times do
-    puts
+
   
   def apply_discount
     if @discount>0
