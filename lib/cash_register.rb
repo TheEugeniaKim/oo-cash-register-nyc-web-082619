@@ -20,7 +20,8 @@ class CashRegister
   def void_last_transaction
     @total = @total - (@last_transaction[1]*last_transaction[2])
     if last_transaction[2] > 1 
-      
+      @last_transaction[2].times do 
+        @items.delete(last_transaction[0])
   end
   
 
