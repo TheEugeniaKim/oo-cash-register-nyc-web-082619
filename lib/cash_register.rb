@@ -16,6 +16,7 @@ class CashRegister
   end
   
   def last_transaction
+    binding.pry
     
   end
   
