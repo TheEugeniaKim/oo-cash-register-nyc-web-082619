@@ -13,9 +13,10 @@ class CashRegister
     quantity.times do
       @items.push(title)
     end 
-    # @items = quantity.times do @items.push(title)
-    
+  end
   
+  def void_last_transaction
+    
   end
   
 
