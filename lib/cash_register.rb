@@ -11,6 +11,7 @@ class CashRegister
   def add_item(title, price, quantity=1)
     @total = @total + (price*quantity)
     binding.pry
+    quantity.times do 
     @items.push(title)
     # @items = quantity.times do @items.push(title)
     
