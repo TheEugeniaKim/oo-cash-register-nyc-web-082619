@@ -15,6 +15,10 @@ class CashRegister
     end 
   end
   
+  def last_item 
+    @last_item = @items.pop 
+  end
+  
   def void_last_transaction
     @items.pop
   end
