@@ -18,9 +18,8 @@ class CashRegister
   
   
   def void_last_transaction
-    binding.pry 
-    @total - (@last_transaction[1]*last_transaction[2])
-    
+    @total = @total - (@last_transaction[1]*last_transaction[2])
+    @items
   end
   
 
