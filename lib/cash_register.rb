@@ -16,6 +16,7 @@ class CashRegister
   end
   
   def last_item 
+    binding.pry 
     @last_item = @items.pop 
   end
   
